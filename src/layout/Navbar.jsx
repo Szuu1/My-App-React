@@ -1,18 +1,18 @@
 function Navbar() {
     return (
-        <nav navBar="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div navBar="container">
-                <a navBar="navbar-brand" href="#">Szuu1</a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="container">
+                <a className="navbar-brand" href="#">Szuu1</a>
 
-                <ul navBar="navbar-nav flex-row gap-4">
-                    <li navBar="nav-item">
-                        <a navBar="navbar-brand" href="#">Home</a>
+                <ul className="navbar-nav flex-row gap-4">
+                    <li className="nav-item">
+                        <a className="navbar-brand" href="#">Home</a>
                     </li>
-                    <li navBar="nav-item">
-                        <a navBar="navbar-brand" href="#">About</a>
+                    <li className="nav-item">
+                        <a className="navbar-brand" href="#">About</a>
                     </li>
-                    <li navBar="nav-item">
-                        <a navBar="navbar-brand" href="#">Contact</a>
+                    <li className="nav-item">
+                        <a className="navbar-brand" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
