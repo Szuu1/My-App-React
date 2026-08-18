@@ -1,11 +1,14 @@
-import Footer from './layout/Footer';
+import Navbar from './layout/Navbar';
 import Sample from './Sample';
+import Footer from "./layout/Footer";
 
 function App() {
   return (
     <><div>
-          <Footer />
-      </div><Sample /></>
+          <Navbar />
+      </div><Sample />
+      <Footer />
+    </>
   );
 }
 
