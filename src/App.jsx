@@ -7,9 +7,16 @@ function App() {
   return (
     <><div>
           <Navbar />
-          <Sidebar />
-      </div><Sample />
-      <Footer />
+
+          <div className="d-flex">
+            <Sidebar />
+
+            <main className="flex-grow-1">
+              <Sample />
+            </main>
+          </div>
+          <Footer />
+      </div>
     </>
   );
 }
