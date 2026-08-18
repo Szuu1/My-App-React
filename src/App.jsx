@@ -1,8 +1,11 @@
+import Footer from './layout/Footer';
 import Sample from './Sample';
 
 function App() {
   return (
-      <Sample />
+    <><div>
+          <Footer />
+      </div><Sample /></>
   );
 }
 
