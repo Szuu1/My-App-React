@@ -14,6 +14,9 @@ function Navbar() {
                     <li className="nav-item">
                         <a className="navbar-brand" href="#">Contact</a>
                     </li>
+                    <li className="nav-item">
+                        <a className="navbar-brand" href="#">Interests</a>
+                    </li>
                 </ul>
             </div>
         </nav>
